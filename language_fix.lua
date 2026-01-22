@@ -17,7 +17,6 @@ local function AddBaseLanguage(event, player)
             player:LearnSpell(669)                 -- Orcish
             player:SetSkill(109, 300, 300, 300)
         end
-        player:SetChatLanguage(1)                  -- Default to Orcish
     end
 end
 
